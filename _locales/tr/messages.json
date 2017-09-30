@@ -1,0 +1,23 @@
+//@yasinkuyu 14/09/017 - insya.com
+//in _locales/tr/messages.json:
+
+{
+  "appName": {
+    "message": "Binance Alarm"
+  },
+  "appDesc": {
+    "message": "Binance.com Kripto Para birimleri için Chrome alarm eklentisi."
+  },
+  "chooseSound": {
+    "message": "Uyarı sesini seç"
+  },
+  "high": {
+    "message": "Yüksek"
+  },
+  "low": {
+    "message": "Düşük"
+  },
+  "save": {
+    "message": "Kaydet"
+  }
+}

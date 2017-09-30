@@ -1,0 +1,66 @@
+<!doctype html>
+<html>
+  <head>
+    <title id="appName"></title>
+    <style type="text/css">
+
+	body {
+		margin: 10px;
+		white-space: nowrap;
+		background: #262d33;
+		color:white;
+	}
+
+	h1 {
+		font-size: 15px;
+	}
+
+	#container {
+		align-items: center; 
+	}
+
+    .header {
+	    width: 100%;
+	    height: 40px;
+	    background: #262d33;
+	    position: absolute;
+	    top: 0;
+	    left: 0;
+	}
+	input {
+	    color: #d0d0d0;
+	    outline: none;
+	    border: 1px solid #323c45;
+	    background-color: #232a30;
+	    padding: 3px 6px;
+	    font-size: 14px;
+	    width: 117px;
+	}
+    </style>
+
+    <script src="popup.js"></script>
+  </head>
+
+  <body>
+    <h1 id="appName"></h1>
+    <div id="container">
+      <span id="chooseSound"></span>  - 
+      <select id="dropdown">
+        <option value="sms-alert-1-daniel_simon">SMS Alert 1</option>
+      </select>
+    </div>
+    <hr>
+    <br>
+    <div id="taks">
+      <span id="taskValue"></span>
+      <input type="text" name="asd" value="0.00000000" />
+      <select class="taskType">
+        <option value="high" class="hight"></option>
+        <option value="low" class="low"></option>
+      </select>
+     </div>
+
+     <hr>
+     <input type="button" id="save" value="" />
+  </body>
+</html>

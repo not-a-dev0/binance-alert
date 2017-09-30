@@ -1,0 +1,23 @@
+//@yasinkuyu 14/09/017 - insya.com
+//in _locales/en/messages.json:
+
+{
+  "appName": {
+    "message": "Binance Alert"
+  },
+  "appDesc": {
+    "message": "CryptoCurrency alert chrome extension for Binance.com"
+  },
+  "chooseSound": {
+    "message": "Choose a sound"
+  },
+  "high": {
+    "message": "High"
+  },
+  "low": {
+    "message": "Low"
+  },
+  "save": {
+    "message": "Save"
+  }
+}
